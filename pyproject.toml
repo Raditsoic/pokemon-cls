@@ -1,0 +1,15 @@
+[project]
+name = "pokemon-cls"
+version = "0.1.0"
+description = "Pokemon Classifier"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.2.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "pillow>=11.0.0",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
